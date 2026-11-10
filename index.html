@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayush Ojha — Web Developer</title>
+<meta name="description" content="Ayush Ojha, MERN stack and Shopify web developer in Kolkata. Responsive websites, landing pages and REST APIs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;800&family=JetBrains+Mono:wght@500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bar" id="bar"></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a href="#top" class="logo">Ayush Ojha</a>
+  <nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact" class="pill">Hire me</a></nav>
+</header>
+
+<main id="top">
+<section class="hero" data-bg="#0b1026">
+  <div class="hero-copy">
+    <div class="avatar tilt"><!-- Replace assets/photo.jpg with your picture (same name) --><img src="assets/photo.jpg" alt="Portrait of Ayush Ojha" onerror="this.remove()"></div>
+    <p class="kicker">&lt;WebDeveloper /&gt; Kolkata, India</p>
+    <h1>I build fast, responsive websites that sell.</h1>
+    <p class="lead">MERN stack and Shopify developer. I turn business and brand needs into clean, usable sites, from landing pages to full-stack apps with secure APIs.</p>
+    <div class="cta"><a class="btn solid" href="#projects">See my work</a><a class="btn" href="assets/Ayush_Ojha_Resume.pdf" download>Download resume</a></div>
+  </div>
+  </section>
+
+<section class="stats">
+  <div><b data-n="50" data-s="+">0</b><span>users secured with JWT auth</span></div>
+  <div><b data-n="40" data-s="%">0</b><span>faster MongoDB reads (reported)</span></div>
+  <div><b data-n="5" data-s="">0</b><span>live jewellery and retail websites</span></div>
+</section>
+
+<section class="stack" id="stack" data-bg="#3b1054">
+  <div class="stack-sticky">
+    <div class="stack-copy">
+      <h2>Full stack, layer by layer</h2>
+      <div class="caps">
+        <div class="cap on"><h3>Data</h3><p>MongoDB, MySQL and PostgreSQL. Schemas and indexes that keep reads fast.</p></div>
+        <div class="cap"><h3>Server</h3><p>Node.js and Express.js, structured with MVC and tested in Postman.</p></div>
+        <div class="cap"><h3>Security and API</h3><p>REST APIs with JWT authentication and authorization.</p></div>
+        <div class="cap"><h3>Interface</h3><p>React.js, Shopify and responsive layouts that look right on every screen.</p></div>
+      </div>
+      <p class="hint">Keep scrolling to build it</p>
+    </div>
+  </div>
+</section>
+<div class="marquee" aria-hidden="true"><div><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Shopify</span><span>REST APIs</span><span>JWT</span><span>Docker</span><span>Git</span><span>PostgreSQL</span><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Shopify</span><span>REST APIs</span><span>JWT</span><span>Docker</span><span>Git</span><span>PostgreSQL</span></div></div>
+<section id="about" class="sec" data-bg="#0d3a44">
+  <h2>About</h2>
+  <div class="about-grid">
+    <p>I am a web developer at Approch India, building websites and landing pages for jewellery and retail brands. I care about clear content hierarchy, layouts that hold up on every screen, and calls to action that people actually notice.</p>
+    <p>Before that I worked as a MERN stack intern, building REST APIs, JWT authentication and tuned MongoDB queries. I hold an MCA (CGPA 7.71) and a BCA (CGPA 8.87), so I am comfortable with both the design side and the data structures underneath.</p>
+  </div>
+</section>
+
+<section data-bg="#3f2010" id="experience" class="sec">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <article class="tl tilt">
+      <time>Jun 2026 – Present</time>
+      <div class="lg sm"><img src="assets/logos/approch.png" alt="Approch India logo"></div>
+      <h3>Web Developer, Approch India</h3><small>Kolkata, India</small>
+      <ul>
+        <li>Build and maintain business and brand websites with responsive layouts and strong usability.</li>
+        <li>Shape sections that present brand stories, products and services clearly on phones, tablets and desktops.</li>
+        <li>Deliver Shopify stores and campaign landing pages using modern frontend tooling.</li>
+      </ul>
+    </article>
+    <article class="tl tilt">
+      <time>Nov 2025 – Apr 2026</time>
+      <h3>MERN Stack Developer Intern, Terrace Farms</h3>
+      <ul>
+        <li>Built and integrated REST APIs with Node.js and Express.js to power the frontend.</li>
+        <li>Implemented JWT authentication and authorization for 50+ users.</li>
+        <li>Improved MongoDB schema design, indexing and queries, with a reported 40% gain in read performance.</li>
+        <li>Tested APIs in Postman and collaborated through Git.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section data-bg="#14205a" id="projects" class="sec">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card tilt"><div class="lg"><img src="assets/logos/varma-alankar.png" alt="Varma Alankar logo"></div><span class="tag">Shopify · E-commerce</span><h3>Varma Alankar</h3><p>A Shopify jewellery store built around product presentation and a smooth online shopping flow.</p><a href="https://www.varmaalankar.com/" class="link" target="_blank" rel="noopener">Visit site →</a></article>
+    <article class="card tilt"><div class="lg"><img src="assets/logos/shree-jewellers.png" alt="Shree Jewellers logo"></div><span class="tag">Landing page · Responsive</span><h3>Shree Jewellers</h3><p>A campaign landing page with a clear content hierarchy and a prominent call to action.</p><a href="https://theshreejewellers.co.in/" class="link" target="_blank" rel="noopener">Visit site →</a></article>
+    <article class="card tilt"><div class="lg"><img src="assets/logos/shree-ganesh.png" alt="Shree Ganesh Jewellers logo"></div><span class="tag">Landing page · Responsive</span><h3>Shree Ganesh Jewellers</h3><p>A focused brand landing page that shows the collection clearly on phones, tablets and desktops.</p><a href="https://shreeganeshjewellers.co/" class="link" target="_blank" rel="noopener">Visit site →</a></article>
+    <article class="card tilt"><div class="lg"><img src="assets/logos/new-manikanchan.png" alt="New Manikanchan Jewellers logo"></div><span class="tag">Website · Responsive</span><h3>New Manikanchan Jewellers</h3><p>A responsive website that presents the jewellery brand and its range in a clean, easy to browse layout.</p><a href="https://newmanikanchan.co.in/" class="link" target="_blank" rel="noopener">Visit site →</a></article>
+    <article class="card tilt"><div class="lg"><img src="assets/logos/sandhya-enterprise.png" alt="Sandhya Enterprise logo"></div><span class="tag">Website · Responsive</span><h3>Sandhya Enterprise</h3><p>A business website that explains the brand, products and services clearly across screen sizes.</p><a href="https://sandhyaenterprise.co.in/" class="link" target="_blank" rel="noopener">Visit site →</a></article>
+  </div>
+  <h3 class="wall-h">Brands I have built for</h3>
+  <p class="wall-sub">Websites and pages for these brands, including some that are no longer online.</p>
+  <div class="wall">
+    <div class="tile tilt"><div class="lg"><img src="assets/logos/ecstacy-salon.png" alt="Ecstasy Salon logo"></div><span>Ecstasy Salon</span></div>
+    <div class="tile tilt"><div class="lg"><img src="assets/logos/padmavati-jewellers.png" alt="Padmavati Jewellers logo"></div><span>Padmavati Jewellers</span></div>
+    <div class="tile tilt"><div class="lg"><img src="assets/logos/deepak-garments.png" alt="Deepak Garments logo"></div><span>Deepak Garments</span></div>
+    <div class="tile tilt"><div class="lg"><img src="assets/logos/approch.png" alt="Approch India logo"></div><span>Approch India</span></div>
+  </div>
+</section>
+
+<section data-bg="#123a28" id="skills" class="sec">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="sk tilt"><h3>Frontend</h3><p>React.js, JavaScript (ES6+), HTML, CSS, Bootstrap, responsive design</p></div>
+    <div class="sk tilt"><h3>Backend</h3><p>Node.js, Express.js, REST APIs, MVC, authentication</p></div>
+    <div class="sk tilt"><h3>Databases</h3><p>MongoDB, MySQL, PostgreSQL, SQL</p></div>
+    <div class="sk tilt"><h3>Tools and platforms</h3><p>Git, GitHub, Postman, Docker, Shopify, Bubble, Lovable, V0</p></div>
+    <div class="sk tilt"><h3>Foundations</h3><p>Java, OOP, data structures and algorithms, MERN stack</p></div>
+  </div>
+</section>
+
+<section data-bg="#4a1033" id="contact" class="sec contact">
+  <h2>Let’s build your next site</h2>
+  <p>Open to freelance projects and full-time roles.</p>
+  <div class="cta">
+    <a class="btn solid" href="mailto:honeyojha1297@gmail.com">honeyojha1297@gmail.com</a>
+    <a class="btn" href="tel:+919804976202">+91 98049 76202</a>
+    <a class="btn" href="#" data-todo>GitHub</a>
+    <a class="btn" href="#" data-todo>LinkedIn</a>
+  </div>
+</section>
+</main>
+<footer>© 2026 Ayush Ojha</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
